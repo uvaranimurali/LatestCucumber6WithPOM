@@ -14,7 +14,7 @@ public class anishlogin {
 	private By accountSections = By.cssSelector("div#center_column span");
 
 	public anishlogin(WebDriver driver) {
-		this.driver = driver;
+		this.driver = auto;
 	}
 	
 	public String getAccountsPageTitle() {
